@@ -1,0 +1,159 @@
+body {
+    font-family: monospace, sans-serif;
+    
+
+}
+
+
+main {
+    background: linear-gradient(black, red);
+    width: 80%;
+    margin: auto;
+}
+
+#landing {
+    /*    background-color:mediumaquamarine;*/
+    background-image: linear-gradient(black, red);
+}
+
+#landing-text {
+
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+#landing-text h1 {
+    color: crimson;
+
+
+}
+
+#landing-text h2 {
+    color: red;
+
+}
+
+#landing-image {
+    background-image: url("../images/greywolf.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+
+}
+
+.button {
+    padding: 1px;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 5rem 0 0;
+    border-radius: 50px;
+    color: goldenrod;
+    background: white;
+    text-decoration: none;
+    transition: background 1000ms ease;
+
+
+}
+
+.button: hover {
+
+    background-color: #3FB823;
+}
+
+.caption {
+
+    padding: 0.6rem;
+    text-align: center;
+
+}
+
+img {
+
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+
+header {
+
+    background-color: grey;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.header h2 {
+    background-color: grey;
+    font-size: 2rem;
+    font-weight: bold;
+    color: maroon;
+
+}
+
+h3 {
+    color: goldenrod;
+
+}
+
+p {
+    color: gold;
+}
+
+footer {
+
+    background-color: grey;
+    padding: 2px;
+}
+
+.myform {
+    padding: 5px;
+}
+
+.myform label {
+    display: block;
+    color: goldenrod;
+}
+
+
+.myform input[type=text],
+.myform input[type-tel],
+.myform textarea {
+    padding: 7px;
+    width: 100%;
+
+}
+
+.button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+    
+    .colum {
+    float: left;
+
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.address {
+    float: right;
+    border: 3px solid black;
+    color: goldenrod;
+
